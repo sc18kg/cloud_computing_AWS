@@ -31,6 +31,7 @@ ssh -i "the_key.pem" "IP_ADDRESS_HERE"
 ## Now the VM has been created
  - Install the dependencies Step by Step
  ```
+sudo apt-get install nginx
 sudo apt-get install nodejs -y
 sudo apt-get install npm -y
 sudo apt-get install python-software-properties -y
