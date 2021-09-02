@@ -1,6 +1,7 @@
 # Cloud Computing Repo - AWS
+# Creating a Two-Tier Architecture
 
-**Creating a AWS VM**
+**Creating a AWS Front End VM**
 
 ## First log into AWS and navigate to EC2
 - Ensure Location is Ireland 
@@ -52,6 +53,8 @@ sudo npm install
 sundo npm start
 ```
 ## The app should now be running on the IP available for all.
+
+**Creating a AWS BackEnd VM**
 
 ## Now the Database VM needs to be created
 - Ensure Location is Ireland 
@@ -124,4 +127,16 @@ printenv DB_HOST
 node seeds/seed.js
 npm start
 ```
-## Now the website should be running on the APP IP address with and showing the data on /posts
+### Now the website should be running on the APP IP address with and showing the data on /posts
+
+## Once both the APP and DB is running you are able to create an AMI for each of these VM
+An AMI is an Amazon Machine Image which provides the information required to launch an instance with the settings and environments you have
+previously set enabling the VM to be shutdown for a length of time and be rebooted with the exact settings.
+
+- To create an AMI:
+  - Select the VM which you would want to create an image of
+  - Then go to Actions > Image and templates > Create image
+  - Add an image name, description and a name tag to the AMI this should follow the naming convention (SRE_kieron_app_ami)
+  - Click Create Image
+  - Once created head to Images > AMIs
+  - After the AMI has completed this can be Launched
