@@ -42,10 +42,11 @@ sudo apt-get install python-software-properties -y
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 ```
 ## Exit and Transfer the App file over to the VM
+![scpimage](https://www.skillsugar.com/media/image/scp-files-1591200528.png)
 ```
 scp -ri "the_key.pem" "Location of File to Transfer" "IP_ADDRESS_HERE":/route/to/place
 ```
-![scpimage](https://www.skillsugar.com/media/image/scp-files-1591200528.png)
+
 ## Shell into the App and Completed the last steps
 ```
 ssh -i "the_key.pem" "IP_ADDRESS_HERE"
