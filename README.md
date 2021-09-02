@@ -144,4 +144,5 @@ previously set enabling the VM to be shutdown for a length of time and be reboot
  - Click Create Image
  - Once created head to Images > AMIs
  - After the AMI has completed this can be Launched
-![amazonami](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/images/ami_lifecycle.png)
+ 
+ ![amazonami](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/images/ami_lifecycle.png)
