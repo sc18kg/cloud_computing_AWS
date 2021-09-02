@@ -37,11 +37,6 @@ sudo apt-get install npm -y
 sudo apt-get install python-software-properties -y
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 ```
-- Make sure you navigate to the app directory to run the following
-```
-cd app
-sudo npm install pm2 -g
-```
 ## Exit and Transfer the App file over to the VM
 ```
 scp -ri "the_key.pem" "Location of File to Transfer" "IP_ADDRESS_HERE":/route/to/place
@@ -50,7 +45,11 @@ scp -ri "the_key.pem" "Location of File to Transfer" "IP_ADDRESS_HERE":/route/to
 ```
 ssh -i "the_key.pem" "IP_ADDRESS_HERE"
 cd /home/ubuntu/app
+sudo npm install pm2 -g
 sudo npm install
 sundo npm start
 ```
 ## The app should now be running on the IP available for all.
+
+## Now the Database VM needs to be created
+
