@@ -3,7 +3,7 @@
 
 ![image](https://github.com/sc18kg/cloud_computing_AWS/blob/main/2tierarch.png?raw=true)
 **Creating a AWS Front End VM**
-![frontendback](https://images.ctfassets.net/hkpf2qd2vxgx/5d3mga1jmH2nPsZABvsorW/4120bd9ec0b76e02503ba639a17978b4/front_end_back_end_blog-01-1024x640.png)
+
 ## First log into AWS and navigate to EC2
 - Ensure Location is Ireland 
 - Click Launch Instance
@@ -55,6 +55,7 @@ sudo npm install
 sundo npm start
 ```
 ## The app should now be running on the IP available for all.
+![frontendback](https://images.ctfassets.net/hkpf2qd2vxgx/5d3mga1jmH2nPsZABvsorW/4120bd9ec0b76e02503ba639a17978b4/front_end_back_end_blog-01-1024x640.png)
 
 **Creating a AWS BackEnd VM**
 
