@@ -1,6 +1,7 @@
 # Cloud Computing Repo - AWS
 # Creating a Two-Tier Architecture
 
+![image](https://github.com/sc18kg/cloud_computing_AWS/blob/main/2tierarch.png?raw=true)
 **Creating a AWS Front End VM**
 
 ## First log into AWS and navigate to EC2
