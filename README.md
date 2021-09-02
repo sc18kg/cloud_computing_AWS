@@ -3,7 +3,7 @@
 
 ![image](https://github.com/sc18kg/cloud_computing_AWS/blob/main/2tierarch.png?raw=true)
 **Creating a AWS Front End VM**
-
+![frontendback](https://images.ctfassets.net/hkpf2qd2vxgx/5d3mga1jmH2nPsZABvsorW/4120bd9ec0b76e02503ba639a17978b4/front_end_back_end_blog-01-1024x640.png)
 ## First log into AWS and navigate to EC2
 - Ensure Location is Ireland 
 - Click Launch Instance
@@ -45,6 +45,7 @@ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 ```
 scp -ri "the_key.pem" "Location of File to Transfer" "IP_ADDRESS_HERE":/route/to/place
 ```
+![scpimage](https://www.skillsugar.com/media/image/scp-files-1591200528.png)
 ## Shell into the App and Completed the last steps
 ```
 ssh -i "the_key.pem" "IP_ADDRESS_HERE"
@@ -105,6 +106,7 @@ sudo systemctl enable mongod
 sudo systemctl status mongod
 ```
 ## Setting up the Reverse proxy on the APP VM is Next
+![reverseproxy](https://www.maketecheasier.com/assets/uploads/2019/03/reverse-proxy-featured.png)
 ```
 ssh -i "the_key.pem" "IP_ADDRESS_HERE_FOR_APP" 
 sudo nano /etc/nginx/sites-available/default
@@ -141,3 +143,4 @@ previously set enabling the VM to be shutdown for a length of time and be reboot
  - Click Create Image
  - Once created head to Images > AMIs
  - After the AMI has completed this can be Launched
+![amazonami](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/images/ami_lifecycle.png)
