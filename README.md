@@ -134,10 +134,10 @@ npm start
 An AMI is an Amazon Machine Image which provides the information required to launch an instance with the settings and environments you have
 previously set enabling the VM to be shutdown for a length of time and be rebooted with the exact settings.
 
-- To create an AMI:
-  - Select the VM which you would want to create an image of
-  - Then go to Actions > Image and templates > Create image
-  - Add an image name, description and a name tag to the AMI this should follow the naming convention (SRE_kieron_app_ami)
-  - Click Create Image
-  - Once created head to Images > AMIs
-  - After the AMI has completed this can be Launched
+## To create an AMI:
+ - Select the VM which you would want to create an image of
+ - Then go to Actions > Image and templates > Create image
+ - Add an image name, description and a name tag to the AMI this should follow the naming convention (SRE_kieron_app_ami)
+ - Click Create Image
+ - Once created head to Images > AMIs
+ - After the AMI has completed this can be Launched
