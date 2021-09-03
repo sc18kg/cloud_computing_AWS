@@ -20,6 +20,7 @@
  - Key: Name
  - Value: SRE_kieron_app (keep to naming convention)
 ## Next: Configure Security Group
+![secapp](https://github.com/sc18kg/cloud_computing_AWS/blob/main/kieronappsecurity.png?raw=true)
  - Select an existing Secuirty group
  - sre_kieron_app ( was the one I created for the app)
  - This had ssh type, on port 22 source: my ip
@@ -76,6 +77,7 @@ sundo npm start
  - Key: Name
  - Value: SRE_kieron_db (keep to naming convention)
 ## Next: Configure Security Group
+![secdb](https://github.com/sc18kg/cloud_computing_AWS/blob/main/kierondbsecurity.png?raw=true)
  - Create a new security group for the db
  - sre_kieron_db ( was the one I created for the app)
  - This had ssh type, on port 22 source: my ip
